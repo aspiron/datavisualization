@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>5-Metod</title>
+	<meta charset="utf-8" />
+	<link href="common/samples.css" rel="stylesheet" />
+	<script type="text/javascript" src="https://visjs.org/dist/vis.js"></script>
+	<link href="https://visjs.org/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#mynetwork {
+		  margin: 60px 150px;;
+		  width: 700px;
+		  height: 500px;
+		  border: 1px solid lightgray;
+		}
+	
+		p {
+		  max-width:700px;
+		}
+
+		.padding {
+			padding: 20px;
+		}
+	  </style>
+</head>
+<body>
+	<div id="header" style="height: 49px;">
+		<div style="float: right; margin-right: 5px; margin-top: 17px;">
+			<a href="5-metod.js" style="margin-right: 10px;">Kodni ko`rish</a>
+		</div>
+	</div>
+	<div id="info" style="top: 60px; bottom: 24px;">
+		<div id="infoTab" style="padding: 10px;">
+			<h1>Metod haqida</h1>
+			<p>
+				Blah blah blah
+			</p>
+			<h4>
+			<ul>asd
+				    <li>1asd</li>
+				    <li>2asda</li>
+    				<li>3asdasd</li>								
+			</ul>
+			</h4>
+		</div>
+
+		<hr>
+			<div class="padding">
+				Yangi node qo`shish	
+				<form id="maForm">
+					<input type="text" id="inName" name="inName" placeholder="Kiriting">
+					<select name="color" id="colorVal">
+						<option value="red">Red</option>
+						<option value="lime">Lime</option>
+						<option value="rgb(255,168,7)">Yellow</option>
+						<option value="#7BE141">Green</option>
+						<option value="rgba(97,195,238,0.5)">Blueish</option>
+					</select>
+					<input type="submit" value="Kiritish">
+				</form>
+			</div>
+			
+		</hr>
+	</div>
+
+	<div id="content" style="top: 60px; bottom: 24px;">
+		<!-- The Diagram component is bound to the canvas element below -->
+		<div id="mynetwork"></div>
+
+	</div>
+	<div id="footer" style="height: 24px;">
+		<span id="copyright">Qalandarova Zulayho</span>
+	</div>
+	<script src="./5-metod.js" type="text/javascript"></script>
+</body>
+</html>

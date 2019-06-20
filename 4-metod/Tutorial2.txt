@@ -1,0 +1,32 @@
+﻿{
+  "project": {
+    "name": "Yulduz MCHJ, zararlari",
+    "activities": [
+      {
+        "name": "Ishlab chiqarish",
+        "activities": [
+          {
+            "name": "Talabga ega yangi maxsulot ishlab chiqarish"
+          },
+          {
+            "name": "Ishlab chiqaradigan maxsulotni sifatini oshirish"
+          },
+          {
+            "name": "Mijozlarga qo`shimcha hizmatlarni ko`rsatish"
+          }
+        ]
+      },
+      {
+        "name": "Marketing siyosatini qayta ko`rib chiqish",
+        "activities": [
+          {
+			"name": "Marketing bo`yicha mutaxassislarni jalb qilish"
+		  },
+          {
+			"name": "Bozorning marketing tadqiqotlarini o`tkazish"
+		  }
+        ]
+      }
+    ]
+  }
+}
